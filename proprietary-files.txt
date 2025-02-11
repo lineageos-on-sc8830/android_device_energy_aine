@@ -1,3 +1,11 @@
+# Audio
+lib/hw/audio.primary.sc8830.so
+lib/libatchannel.so
+lib/libdumpdata.so
+lib/libnvexchange.so
+lib/libvbeffect.so
+lib/libvbpga.so
+
 # Display
 lib/egl/libGLES_mali.so
 lib/hw/hwcomposer.sc8830.so

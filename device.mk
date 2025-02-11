@@ -4,6 +4,21 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    audio.r_submix.default \
+    audio.usb.default
+
+PRODUCT_PACKAGES += \
+    libaudio-resampler \
+    libaudioutils \
+    libtinyalsa \
+    tinymix
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_SYSTEM)/etc)
+
 # Display
 PRODUCT_PACKAGES += \
     libion
