@@ -35,6 +35,9 @@ BOARD_USES_SPRD_HARDWARE := true
 TARGET_BOARD_PLATFORM := sc8830
 TARGET_BOOTLOADER_BOARD_NAME := sc8830
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.sc8830
+
 # Inherit the prebuilt kernel files
 include device/energy/aine-kernel/BoardConfigKernel.mk
 
