@@ -13,6 +13,11 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT  := cortex-a7
 
+# Platform
+BOARD_USES_SPRD_HARDWARE := true
+TARGET_BOARD_PLATFORM := sc8830
+TARGET_BOOTLOADER_BOARD_NAME := sc8830
+
 # Inherit the prebuilt kernel files
 include device/energy/aine-kernel/BoardConfigKernel.mk
 
