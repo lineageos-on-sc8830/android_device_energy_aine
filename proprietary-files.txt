@@ -6,6 +6,11 @@ lib/libnvexchange.so
 lib/libvbeffect.so
 lib/libvbpga.so
 
+# Bluetooth
+etc/connectivity_calibration.ini
+etc/connectivity_configure.ini
+lib/libbt-vendor.so
+
 # Display
 lib/egl/libGLES_mali.so
 lib/hw/hwcomposer.sc8830.so
