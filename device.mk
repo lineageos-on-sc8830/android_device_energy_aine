@@ -6,3 +6,6 @@
 
 # Inherit the proprietary files
 $(call inherit-product-if-exists, vendor/energy/aine/aine-vendor.mk)
+
+# Inherit the prebuilt kernel files
+$(call inherit-product-if-exists, device/energy/aine-kernel/kernel.mk)

@@ -13,5 +13,8 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT  := cortex-a7
 
+# Inherit the prebuilt kernel files
+include device/energy/aine-kernel/BoardConfigKernel.mk
+
 # Inherit the proprietary files
 -include vendor/energy/aine/BoardConfigVendor.mk
