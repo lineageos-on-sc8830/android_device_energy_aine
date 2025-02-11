@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Display
+PRODUCT_PACKAGES += \
+    libion
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.sc8830 \

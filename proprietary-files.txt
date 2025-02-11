@@ -1,0 +1,6 @@
+# Display
+lib/egl/libGLES_mali.so
+lib/hw/hwcomposer.sc8830.so
+lib/hw/gralloc.sc8830.so
+lib/libboost.so
+lib/libmemoryheapion.so
